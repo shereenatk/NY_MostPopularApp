@@ -33,6 +33,7 @@ struct ActivityIndicator: View {
     .aspectRatio(1, contentMode: .fit)
     .onAppear {
       self.incrementIndex()
+        
     }
   }
 
