@@ -3,27 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33175C4926717098003D1F77 /* Activityview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33175C4826717098003D1F77 /* Activityview.swift */; };
 		33A997DB2670BC3600853B5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A997DA2670BC3600853B5F /* AppDelegate.swift */; };
 		33A997DD2670BC3600853B5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A997DC2670BC3600853B5F /* SceneDelegate.swift */; };
-		33A997DF2670BC3600853B5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A997DE2670BC3600853B5F /* ContentView.swift */; };
 		33A997E12670BC3700853B5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A997E02670BC3700853B5F /* Assets.xcassets */; };
 		33A997E42670BC3700853B5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A997E32670BC3700853B5F /* Preview Assets.xcassets */; };
 		33A997E72670BC3700853B5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A997E52670BC3700853B5F /* LaunchScreen.storyboard */; };
+		33A998012670BCF600853B5F /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A997FD2670BCF600853B5F /* AppColor.swift */; };
+		33A998032670BCF600853B5F /* Appconstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A997FF2670BCF600853B5F /* Appconstants.swift */; };
+		33A9980E2670BD0600853B5F /* URLERROR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A998062670BD0600853B5F /* URLERROR.swift */; };
+		33A9980F2670BD0600853B5F /* NetwordReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A998072670BD0600853B5F /* NetwordReachability.swift */; };
+		33A998102670BD0600853B5F /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A998082670BD0600853B5F /* NetworkConstants.swift */; };
+		33A998112670BD0600853B5F /* BaseApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A998092670BD0600853B5F /* BaseApiClient.swift */; };
+		33A998122670BD0600853B5F /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A9980A2670BD0600853B5F /* ResponseError.swift */; };
+		33A998132670BD0600853B5F /* ResponseSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A9980B2670BD0600853B5F /* ResponseSuccess.swift */; };
+		33A998142670BD0600853B5F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A9980C2670BD0600853B5F /* NetworkManager.swift */; };
+		33A998152670BD0600853B5F /* PageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A9980D2670BD0600853B5F /* PageRouter.swift */; };
+		33A998182670BD0F00853B5F /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A998172670BD0F00853B5F /* ArticleModel.swift */; };
+		33A9981C2670BD1700853B5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A9981A2670BD1700853B5F /* ContentView.swift */; };
+		33A9981D2670BD1700853B5F /* ArticleDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A9981B2670BD1700853B5F /* ArticleDetailsView.swift */; };
+		33A998202670BD2300853B5F /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A9981F2670BD2300853B5F /* ArticleListViewModel.swift */; };
+		33F9D53026710ADA00A2B8EF /* GlobalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9D52F26710ADA00A2B8EF /* GlobalClass.swift */; };
+		33F9D538267116B600A2B8EF /* HSHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9D537267116B600A2B8EF /* HSHostingController.swift */; };
+		33F9D53B2671304A00A2B8EF /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9D53A2671304A00A2B8EF /* PageView.swift */; };
+		B585173A9E4CA1C993EF07F1 /* Pods_NY_Times_Test_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BEAEF6B879B1C86059599F /* Pods_NY_Times_Test_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18CADDD1EE1AEF7BE1847BB1 /* Pods-NY_Times_Test_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NY_Times_Test_App.debug.xcconfig"; path = "Target Support Files/Pods-NY_Times_Test_App/Pods-NY_Times_Test_App.debug.xcconfig"; sourceTree = "<group>"; };
+		33175C4826717098003D1F77 /* Activityview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activityview.swift; sourceTree = "<group>"; };
 		33A997D72670BC3600853B5F /* NY_Times_Test_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NY_Times_Test_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A997DA2670BC3600853B5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33A997DC2670BC3600853B5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		33A997DE2670BC3600853B5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		33A997E02670BC3700853B5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33A997E32670BC3700853B5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		33A997E62670BC3700853B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33A997E82670BC3700853B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A997FD2670BCF600853B5F /* AppColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		33A997FF2670BCF600853B5F /* Appconstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appconstants.swift; sourceTree = "<group>"; };
+		33A998062670BD0600853B5F /* URLERROR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLERROR.swift; sourceTree = "<group>"; };
+		33A998072670BD0600853B5F /* NetwordReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetwordReachability.swift; sourceTree = "<group>"; };
+		33A998082670BD0600853B5F /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		33A998092670BD0600853B5F /* BaseApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseApiClient.swift; sourceTree = "<group>"; };
+		33A9980A2670BD0600853B5F /* ResponseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
+		33A9980B2670BD0600853B5F /* ResponseSuccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSuccess.swift; sourceTree = "<group>"; };
+		33A9980C2670BD0600853B5F /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		33A9980D2670BD0600853B5F /* PageRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageRouter.swift; sourceTree = "<group>"; };
+		33A998172670BD0F00853B5F /* ArticleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
+		33A9981A2670BD1700853B5F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33A9981B2670BD1700853B5F /* ArticleDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailsView.swift; sourceTree = "<group>"; };
+		33A9981F2670BD2300853B5F /* ArticleListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
+		33F9D52F26710ADA00A2B8EF /* GlobalClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalClass.swift; sourceTree = "<group>"; };
+		33F9D537267116B600A2B8EF /* HSHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSHostingController.swift; sourceTree = "<group>"; };
+		33F9D53A2671304A00A2B8EF /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		60808F7E25F3E77E9AFFAEF9 /* Pods-NY_Times_Test_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NY_Times_Test_App.release.xcconfig"; path = "Target Support Files/Pods-NY_Times_Test_App/Pods-NY_Times_Test_App.release.xcconfig"; sourceTree = "<group>"; };
+		C1BEAEF6B879B1C86059599F /* Pods_NY_Times_Test_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NY_Times_Test_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B585173A9E4CA1C993EF07F1 /* Pods_NY_Times_Test_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +81,8 @@
 			children = (
 				33A997D92670BC3600853B5F /* NY_Times_Test_App */,
 				33A997D82670BC3600853B5F /* Products */,
+				C9D546863880A7FF68787E45 /* Pods */,
+				A576D5DF00EDF434F366BA3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +97,13 @@
 		33A997D92670BC3600853B5F /* NY_Times_Test_App */ = {
 			isa = PBXGroup;
 			children = (
+				33A997FC2670BCE100853B5F /* Network */,
+				33A997FB2670BCDA00853B5F /* Utilities */,
+				33A997FA2670BCC100853B5F /* Model */,
+				33A997F92670BCBC00853B5F /* View */,
+				33A997F82670BCB000853B5F /* View Model */,
 				33A997DA2670BC3600853B5F /* AppDelegate.swift */,
 				33A997DC2670BC3600853B5F /* SceneDelegate.swift */,
-				33A997DE2670BC3600853B5F /* ContentView.swift */,
 				33A997E02670BC3700853B5F /* Assets.xcassets */,
 				33A997E52670BC3700853B5F /* LaunchScreen.storyboard */,
 				33A997E82670BC3700853B5F /* Info.plist */,
@@ -75,6 +120,76 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		33A997F82670BCB000853B5F /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				33A9981F2670BD2300853B5F /* ArticleListViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		33A997F92670BCBC00853B5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33A9981B2670BD1700853B5F /* ArticleDetailsView.swift */,
+				33A9981A2670BD1700853B5F /* ContentView.swift */,
+				33F9D53A2671304A00A2B8EF /* PageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33A997FA2670BCC100853B5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33A998172670BD0F00853B5F /* ArticleModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33A997FB2670BCDA00853B5F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				33A997FD2670BCF600853B5F /* AppColor.swift */,
+				33A997FF2670BCF600853B5F /* Appconstants.swift */,
+				33F9D52F26710ADA00A2B8EF /* GlobalClass.swift */,
+				33F9D537267116B600A2B8EF /* HSHostingController.swift */,
+				33175C4826717098003D1F77 /* Activityview.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		33A997FC2670BCE100853B5F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				33A998092670BD0600853B5F /* BaseApiClient.swift */,
+				33A998072670BD0600853B5F /* NetwordReachability.swift */,
+				33A998082670BD0600853B5F /* NetworkConstants.swift */,
+				33A9980C2670BD0600853B5F /* NetworkManager.swift */,
+				33A9980D2670BD0600853B5F /* PageRouter.swift */,
+				33A9980A2670BD0600853B5F /* ResponseError.swift */,
+				33A9980B2670BD0600853B5F /* ResponseSuccess.swift */,
+				33A998062670BD0600853B5F /* URLERROR.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A576D5DF00EDF434F366BA3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1BEAEF6B879B1C86059599F /* Pods_NY_Times_Test_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9D546863880A7FF68787E45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18CADDD1EE1AEF7BE1847BB1 /* Pods-NY_Times_Test_App.debug.xcconfig */,
+				60808F7E25F3E77E9AFFAEF9 /* Pods-NY_Times_Test_App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33A997EB2670BC3700853B5F /* Build configuration list for PBXNativeTarget "NY_Times_Test_App" */;
 			buildPhases = (
+				B52C7C9F2F6D7BBBA11F9D10 /* [CP] Check Pods Manifest.lock */,
 				33A997D32670BC3600853B5F /* Sources */,
 				33A997D42670BC3600853B5F /* Frameworks */,
 				33A997D52670BC3600853B5F /* Resources */,
+				6F3DDDEA3DCE2A3BBAC2196E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,14 +257,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6F3DDDEA3DCE2A3BBAC2196E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NY_Times_Test_App/Pods-NY_Times_Test_App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NY_Times_Test_App/Pods-NY_Times_Test_App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NY_Times_Test_App/Pods-NY_Times_Test_App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B52C7C9F2F6D7BBBA11F9D10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NY_Times_Test_App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		33A997D32670BC3600853B5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A998112670BD0600853B5F /* BaseApiClient.swift in Sources */,
+				33A998182670BD0F00853B5F /* ArticleModel.swift in Sources */,
+				33A9981C2670BD1700853B5F /* ContentView.swift in Sources */,
+				33A998102670BD0600853B5F /* NetworkConstants.swift in Sources */,
+				33A9980F2670BD0600853B5F /* NetwordReachability.swift in Sources */,
+				33A998152670BD0600853B5F /* PageRouter.swift in Sources */,
+				33A998142670BD0600853B5F /* NetworkManager.swift in Sources */,
+				33F9D53B2671304A00A2B8EF /* PageView.swift in Sources */,
+				33A998032670BCF600853B5F /* Appconstants.swift in Sources */,
+				33F9D53026710ADA00A2B8EF /* GlobalClass.swift in Sources */,
+				33A998132670BD0600853B5F /* ResponseSuccess.swift in Sources */,
+				33A998122670BD0600853B5F /* ResponseError.swift in Sources */,
 				33A997DB2670BC3600853B5F /* AppDelegate.swift in Sources */,
+				33175C4926717098003D1F77 /* Activityview.swift in Sources */,
+				33A9980E2670BD0600853B5F /* URLERROR.swift in Sources */,
+				33A998202670BD2300853B5F /* ArticleListViewModel.swift in Sources */,
+				33A9981D2670BD1700853B5F /* ArticleDetailsView.swift in Sources */,
 				33A997DD2670BC3600853B5F /* SceneDelegate.swift in Sources */,
-				33A997DF2670BC3600853B5F /* ContentView.swift in Sources */,
+				33A998012670BCF600853B5F /* AppColor.swift in Sources */,
+				33F9D538267116B600A2B8EF /* HSHostingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +459,7 @@
 		};
 		33A997EC2670BC3700853B5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18CADDD1EE1AEF7BE1847BB1 /* Pods-NY_Times_Test_App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -303,6 +480,7 @@
 		};
 		33A997ED2670BC3700853B5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60808F7E25F3E77E9AFFAEF9 /* Pods-NY_Times_Test_App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
