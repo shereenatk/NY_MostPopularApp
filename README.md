@@ -8,4 +8,9 @@
   5. Kingfisher , Alamofire
   6. Object orient approch
   
+  # Features
+  1. Home page : List all the most popular articles
+  2. Detailed page : Article properties, article link share option and article redading option from the url.
+  
+  
   
