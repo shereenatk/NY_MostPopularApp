@@ -1,2 +1,2 @@
 # NY_MostPopularApp
-![article](https://user-images.githubusercontent.com/85651078/121444462-a085b680-c9a0-11eb-9f45-51e46dfccfd1.gif)
+![nyarticle](https://user-images.githubusercontent.com/85651078/121444750-1d189500-c9a1-11eb-8dfe-f6752f264b23.gif)
