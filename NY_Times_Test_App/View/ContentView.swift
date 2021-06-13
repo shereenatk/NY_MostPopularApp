@@ -81,11 +81,9 @@ struct ContentView: View {
                 self.animate = false
         }
     }
+    }
+    
 }
-
-    
-    
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ActivityIndicator()
@@ -94,4 +92,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-}
+
